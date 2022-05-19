@@ -15,7 +15,7 @@
     width: 20%;
 }
 
-img{
+.logo_image{
     border-radius: 50%;
     width: 100%;
     height: 200px;
@@ -53,3 +53,18 @@ li{
     width: 100%;
     height: 200px;
 } */
+
+a:hover{
+    color: whitesmoke;
+}
+.crop_top, .smocked_top, .off_shoulder, .gown, 
+.kiddies{
+    display: none;
+    width: 80%;
+    height: 100vh;
+}
+
+
+img{
+    height: 100vh;
+}
