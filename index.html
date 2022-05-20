@@ -11,17 +11,17 @@
 <body>
     <div class="container">
         <div class="first">
-             <div class="logo" >
+             <div class="logo" onclick="mainImage()" id="logo" >
                 <img class="logo_image" src="./img/dressprologocut.png" alt="Dress pro logo">
                 
             </div> 
             <ul>
                 
-                <li><a href="">CROP TOP</a></li>
-                <li><a href="">SMOCKED TOP</a></li>
-                <li><a href="">OFF-SHOULDER</a></li>
-                <li><a href="">GOWN</a></li>
-                <li><a href="">KIDDIES</a></li>
+                <li id="crop_top_link" onclick="cropTop()" >CROP TOP</li>
+                <li id="smocked_top_link"  onclick="smockedTop()">SMOCKED TOP</li>
+                <li id="off_shoulder_link" onclick="offShoulder()">OFF-SHOULDER</li>
+                <li id="gown_link" onclick="gown()">GOWN</li>
+                <li id="kiddies_link" onclick="kiddies()">KIDDIES</li>
             </ul>
         </div>
         <div class="second" id="bg_image">
@@ -38,7 +38,7 @@
             <marquee behavior="scroll" direction="">
                 <img class="images" src="./img/smocked1.jpg" alt="">
                 <img class="images" src="./img/smocked2.jpg" alt="">
-                <img class="images" src="./img/smocked3.jpg" alt="">
+                <img class="images" src="./img/smocked2.jpg" alt="">
             </marquee>
         </div>
         <div class="off_shoulder" id="off_shoulder">
